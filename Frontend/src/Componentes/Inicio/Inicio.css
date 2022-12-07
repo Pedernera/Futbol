@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    background: #000000;
+    min-height: 531px;
+    margin: 0%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container #futbol{
+    width: 40%;
+}

@@ -1,0 +1,147 @@
+.card-equipo{
+    width: 90%;
+    margin: 5px 0;
+}
+
+.card-equipo .titulo{
+    position: relative;
+}
+
+.titulo .btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+}
+.titulo .btn button{
+   margin: 0 10px;
+   background: none;
+   border: none;
+   font-size: 20px;
+}
+
+.titulo .btn button:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+.body{
+    display: flex;
+    align-items: center;
+}
+
+#plantel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#plantel h4{
+    margin: 5px 0;
+    text-transform: uppercase;
+
+}
+
+#jugadores{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 3px;
+   border-bottom: 1px solid;
+}
+
+#jugadores div{
+   margin-right: 1px;
+   width: 193px;
+
+}
+#jugadores h5{
+    width: 100%;
+    margin: 2%;
+}
+#jugadores ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#arqueros, #defensores,#mediocampista{
+    border-right: 1px solid;
+}
+.nombre-equipo{
+    text-align: center;
+    text-transform: uppercase;
+}
+.escudo{
+    width: 120px;
+    height: 100px;
+    margin: 5px;
+}
+
+@media(max-width:1350px){
+    #jugadores{
+        justify-content:  space-around;
+        border-bottom: none;
+    }
+    #jugadores div{
+        margin-right: 1px;
+        margin-top: 3px;
+        width: 330px;
+       
+    }
+
+    #defensores, #delantero{
+        margin-left: 5px;
+        border-right: none;
+    }
+
+    #arqueros, #mediocampista{
+        margin: 0;
+    }
+
+    #arqueros, #defensores{
+       border-bottom: 1px solid;
+    }
+}
+@media(max-width:1171px){
+    #jugadores div{
+        margin-right: 1px;
+        margin-top: 3px;
+        width: 280px;
+    }
+}
+
+@media(max-width:1018px){
+    #jugadores div{
+        width: 250px;
+    }
+}
+
+@media(max-width:920px){
+    #jugadores div{
+        width: 200px;
+    }
+}
+
+@media(max-width:776px){
+    #jugadores div{
+        width: 80%;
+    }
+
+    #defensores, #arqueros, #mediocampista{
+       border-right: none;
+       border-bottom: 1px solid;
+       margin: 0;
+    }
+
+    #delantero{
+        margin: 0;
+    }
+}
+
+@media(max-width:525px){
+    #jugadores div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.card-torneo{
+   color: aliceblue;
+}
+
+.card-torneo caption{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.card-torneo table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+.card-torneo table th, td {
+    padding: 5px;
+    text-align: center;
+}

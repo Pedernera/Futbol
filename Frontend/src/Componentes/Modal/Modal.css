@@ -1,0 +1,151 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: rgba(0, 0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f4f4f4;
+}
+
+.contenedorModal{
+    width: 400px;
+    height: 500px;
+    background: #25174b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-modal{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+.title-modal{
+    text-align: center;
+}
+ 
+.btn-close-modal{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    width: 30px;
+    height: 30px;
+    font-size: x-large;
+    color: #f4f4f4;
+}
+
+.btn-close-modal:hover{
+    background: rgba(0, 0,0,.2);
+}
+
+.footer-modal{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-modal button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border: none;
+    background-color: #9688d3;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.9);  
+    color: #000000; 
+}
+
+.footer-modal :hover{
+    height: 35px;
+    width: 155px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px rgba(245, 245, 245, 0.2); 
+    color: #f4f4f4;
+    transition:  all .3s linear;
+}
+.body-modal{
+    width: 98%;
+    height: 76%;
+    margin: 2% 1%;
+    display: flex;
+}
+
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ form .row{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ form .previewimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ form .previewimg img{
+    height:25vh;
+    width:70%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.9); 
+ }
+
+ form .check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-left: 2.5rem;
+ }
+
+
+ form .check input{
+    background: none;
+    box-shadow: none;
+    width: 10%;
+ }
+ form .col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+ }
+ form div input{
+     width: 90%;
+     padding: 3px 0;
+     margin: 5px;
+     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.9); 
+     border: none;
+     background: #9688d3;
+ }
+
+
+ form div select{
+    width: 90%;
+    padding: 3px 0;
+    margin: 5px;
+    border: none;
+    background: #9688d3;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.9); 
+ }
+
+ 

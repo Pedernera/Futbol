@@ -1,0 +1,40 @@
+.btn-float{
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    color: #f4f4f4;
+    background-color: #25174b;
+}
+
+.btn-float:hover{
+    background-color: rgb(45, 25, 107);
+    width: 51px;
+    height: 51px;
+    font-size: 31px;
+    
+}
+
+.btn-float:where(:hover)>.tooltip{
+    opacity: 1;
+    visibility: visible;
+    font-size: 12px;
+}
+.tooltip{
+    position: fixed;
+    right: 10px;
+    bottom: 85px;
+    background: #201f1f;
+    color: #f4f4f4;
+    padding: 3px;
+    opacity: 0;
+    visibility: hidden;
+    text-transform: uppercase;
+}
+
+
+
